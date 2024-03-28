@@ -5,7 +5,7 @@ import Home from "./pages/home/home"
 import Category from "./pages/category/category"
 import Banner from "./pages/banners/banner"
 import Product from "./pages/products/product"
-
+import CategoryCreate from "./pages/category/category-create"
 function App() {
   
 
@@ -17,6 +17,7 @@ function App() {
         <Route path="category" element={<Category/>}/>
         <Route path="banner" element={<Banner/>}/>
         <Route path="product" element={<Product/>}/>
+        <Route path="category/create" element={<CategoryCreate/>}/>
       </Route>
    </Routes>
   )
